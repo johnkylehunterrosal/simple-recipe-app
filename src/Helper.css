@@ -26,6 +26,9 @@
   font-style: italic;
   text-decoration: underline;
 }
+.font-size1  {
+  font-size: 3.5rem !important;
+}
 /* Flex */
 
 .d-flex-row {
@@ -71,11 +74,17 @@
 .pad-top-25 {
   padding-top: 25px;
 }
+.pad-top-30 {
+  padding-top: 30px;
+}
 .pad-top-40 {
   padding-top: 40px;
 }
 .pad-left-10 {
   padding-left : 10px;
+}
+.pad-left-30 {
+  padding-left: 30px;
 }
 .pad-bot-20 {
   padding-bottom: 20px;

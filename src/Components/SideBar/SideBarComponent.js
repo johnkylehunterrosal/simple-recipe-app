@@ -41,7 +41,7 @@ const SideBar = (props) =>  {
               <>
                 <Link to={icon.pathName} onClick={refreshData}>
                   <div className='pad-bot-20'>
-                  <a class="btn-floating btn-large pulse"><i class="material-icons medium color-light-red">{icon.iconName}</i></a>
+                  <a class="btn-floating btn-large pulse"><i class="material-icons medium color-light-red font-size1">{icon.iconName}</i></a>
                   </div>
                   <div className='pad-bot-20 color-white'>
                     {icon.labelName}

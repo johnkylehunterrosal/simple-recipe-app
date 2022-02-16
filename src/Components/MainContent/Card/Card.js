@@ -6,7 +6,6 @@ import '../../../Helper.css';
 import './card.css'
 
 const Card = (props) =>  { 
-
     const pageParam = useLocation().pathname == "/edit" ? "/edit" : "/view-recipe";
     console.log('useLocation', useLocation());
   return (
@@ -22,11 +21,13 @@ const Card = (props) =>  {
                         </Link>
                         </div>
                         <div class="card-content">
-                            <div className='description d-flex-start'>
-                                 <p className='color-dark-blue'>
-                                    {props.recipeLists.shortDescription}
-                                </p>
-                            </div>
+                            <Link to={`${pageParam}/${props.recipeLists.id}`}>
+                                <div className='description d-flex-start'>
+                                     <p className='color-dark-blue'>
+                                        {props.recipeLists.shortDescription}
+                                    </p>
+                                </div>
+                            </Link>
                             <div className='d-flex-row rating'>
                                 <div className='width-50per d-flex-start'>
                                     <Rating />
