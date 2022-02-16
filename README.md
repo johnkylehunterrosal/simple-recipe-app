@@ -1,5 +1,8 @@
 # Simple Recipe App using React + ES6 
 
+### Visit demo app
+https://recipelist-app-kyle.herokuapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This is only demo app showing how we use React in general as application.
 
