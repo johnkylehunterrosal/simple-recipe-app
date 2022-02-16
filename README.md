@@ -18,6 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - View Recipe lists
 - View single recipe
 - Edit Recipe
+- [In Process] mobile responsiveness
 - [In Progress] Bookmarking Recipe
 - [In Progress] Rating
 - [In Progress] Search
