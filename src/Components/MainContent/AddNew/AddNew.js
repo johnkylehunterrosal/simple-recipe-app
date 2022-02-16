@@ -134,7 +134,7 @@ const AddNew = (props) =>  {
                             <input id="first_name2" type="text" class="validate" onChange={handleIngredients} value={ingredientsHolder.name} ></input>
                                 <label class="active" for="first_name2">Add Ingredients</label>
                             <div>
-                                <button class="btn waves-effect waves-light" name="action" onClick={clickAddIngredients}>Add Ingredients</button>
+                                <button class="btn waves-effect waves-light #e57373 red lighten-2npm s" name="action" onClick={clickAddIngredients}>Add Ingredients</button>
                             </div>
                         </div>
                         <div class="row">
@@ -143,7 +143,7 @@ const AddNew = (props) =>  {
                                 {props.recipe.ingredientsList.map((ingredientsLists) => {
                                     return (
                                         <>
-                                           <li class="collection-item "><div>{ingredientsLists.name}<a href="#!" class="secondary-content"><i class="material-icons hand-hover" onClick={() => clickDelIngredients(ingredientsLists.id)}> onclclose</i></a></div></li>
+                                           <li class="collection-item "><div>{ingredientsLists.name}<a href="#!" class="secondary-content"><i class="material-icons hand-hover color-light-red" onClick={() => clickDelIngredients(ingredientsLists.id)}> onclclose</i></a></div></li>
                                         </>
                                     )
                                 })}
@@ -154,7 +154,7 @@ const AddNew = (props) =>  {
                             <input id="first_name2" type="text" class="validate" onChange={handleInstructions} value={instructionsHolder.name} ></input>
                                 <label class="active" for="first_name2">Add Ingredients</label>
                             <div>
-                                <button class="btn waves-effect waves-light" name="action" onClick={clickAddInstructions}>Add Ingredients</button>
+                                <button class="btn waves-effect waves-light #e57373 red lighten-2npm s" name="action" onClick={clickAddInstructions}>Add Ingredients</button>
                             </div>
                         </div>
                         <div class="row">
@@ -163,7 +163,7 @@ const AddNew = (props) =>  {
                                 {props.recipe.instructionsList.map((instructionsLists) => {
                                     return (
                                         <>
-                                           <li class="collection-item" value={props.recipe.instructionsList}><div>{instructionsLists.name}<a href="#!" class="secondary-content"><i class="material-icons hand-hover" onClick={() => clickDelInstructions(instructionsLists.id)}>close</i></a></div></li>
+                                           <li class="collection-item" value={props.recipe.instructionsList}><div>{instructionsLists.name}<a href="#!" class="secondary-content"><i class="material-icons hand-hover color-light-red" onClick={() => clickDelInstructions(instructionsLists.id)}>close</i></a></div></li>
                                         </>
                                     )
                                 })}
@@ -178,9 +178,9 @@ const AddNew = (props) =>  {
                        <Link to="/">
                            { useParams().id
                             ?
-                            <button class="btn waves-effect waves-light" name="action" onClick={clickUpdateRecipe}>Update Recipe</button>
+                            <button class="btn waves-effect waves-light #e57373 red lighten-2npm s" name="action" onClick={clickUpdateRecipe}>Update Recipe</button>
                             :
-                            <button class="btn waves-effect waves-light" name="action" onClick={clickSaveRecipe}>Save Recipe</button>
+                            <button class="btn waves-effect waves-light #e57373 red lighten-2npm s" name="action" onClick={clickSaveRecipe}>Save Recipe</button>
                            }
                         </Link>
                     </div>
