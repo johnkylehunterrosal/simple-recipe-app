@@ -13,6 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 # Functionalities 
 - Able to Add new Recipe
 - View Recipe lists
+- View single recipe
 - Edit Recipe
 - [In Progress] Bookmarking Recipe
 - [In Progress] Rating
