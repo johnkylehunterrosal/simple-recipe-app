@@ -16,6 +16,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - Edit Recipe
 - [In Progress] Bookmarking Recipe
 - [In Progress] Rating
+- [In Progress] Search
 
 # Screenshots of the Actual App
 ![image](https://user-images.githubusercontent.com/82791084/152117192-4577493a-d762-41ba-9329-6dd281cbc5b8.png)
